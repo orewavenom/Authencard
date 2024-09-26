@@ -1,0 +1,201 @@
+    #ofBar {
+        background: #de2e2e;
+        text-align: left;
+        min-height: 60px;
+        z-index: 999999999;
+        font-size: 16px;
+        color: #fff;
+        padding: 18px 5%;
+        font-weight: 400;
+        display: block;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        box-shadow: 0 6px 13px -4px rgba(0, 0, 0, 0.25);
+    }
+
+    #close-bar {
+        font-size: 22px;
+        color: #3e3947;
+        margin-right: 0;
+        position: absolute;
+        right: 5%;
+        background: white;
+        opacity: 0.5;
+        padding: 0px;
+        height: 25px;
+        line-height: 21px;
+        width: 25px;
+        border-radius: 50%;
+        text-align: center;
+        top: 18px;
+        cursor: pointer;
+        z-index: 9999999999;
+        font-weight: 200;
+    }
+
+    #btn-bar {
+        opacity: 1;
+    }
+
+    #btn-bar {
+        background-color: #fff;
+        color: #40312d;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        opacity: .95;
+        margin-left: 15px;
+        top: 0px;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 0 5px 10px -3px rgba(0,0,0,.23), 0 6px 10px -5px rgba(0,0,0,.25);
+    }
+
+    .filter-option-inner-inner{
+        color: white; /*#495057*/
+    }
+
+    .bootstrap-select>.dropdown-toggle.bs-placeholder{
+        color: white;
+    }
+
+    .select-with-transition .filter-option .filter-option-inner .filter-option-inner-inner{
+        color: #495057 !important;
+    }
+
+    .card-avatarr{
+      margin: -50px auto 0  !important;
+      border-radius: 10%  !important;
+      overflow: hidden  !important;
+      padding: 3px  !important;
+      box-shadow: none  !important;
+      background-color: white !important;
+    }
+
+    .college-logo{
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .btn-info-custom{
+        display: inline-block;
+        color: #fff !important;
+        background-color: #00bcd4 !important;
+        border-color: #00bcd4 !important;
+        box-shadow: 0 2px 2px 0 rgba(0,188,212,.14), 0 3px 1px -2px rgba(0,188,212,.2), 0 1px 5px 0 rgba(0,188,212,.12) !important;
+    }
+
+    @media screen and (min-width: 350px) {
+      .btn-info-custom{
+        display: block;
+        color: #fff !important;
+        background-color: #00bcd4 !important;
+        border-color: #00bcd4 !important;
+        box-shadow: 0 2px 2px 0 rgba(0,188,212,.14), 0 3px 1px -2px rgba(0,188,212,.2), 0 1px 5px 0 rgba(0,188,212,.12) !important;
+      }
+    }
+
+    @media screen and (min-width: 800px) {
+      .btn-info-custom{
+        display: inline-block;
+        color: #fff !important;
+        background-color: #00bcd4 !important;
+        border-color: #00bcd4 !important;
+        box-shadow: 0 2px 2px 0 rgba(0,188,212,.14), 0 3px 1px -2px rgba(0,188,212,.2), 0 1px 5px 0 rgba(0,188,212,.12) !important;
+      }
+    }
+
+    .btn-custom {
+        padding: 12px 30px !important;
+        margin: .3125rem 1px !important;
+        font-size: .75rem !important;
+        font-weight: 400 !important;
+        line-height: 1.428571 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        border-radius: .2rem;
+        transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
+        will-change: box-shadow,transform;
+    }
+
+    .hand{
+        cursor: pointer !important;
+    }
+
+    .college-address{
+        font-size: medium;
+        margin-top: 5px;
+    }
+
+    .bootstrap-select .btn.dropdown-toggle.select-with-transition{
+        border: 0!important;
+        background-image: linear-gradient(0deg,#9c27b0 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+        background-size: 0 100%,100% 100%;
+        background-repeat: no-repeat;
+        background-position: bottom,50% calc(100% - 1px);
+        background-color: transparent!important;
+        transition: background 0s linear!important;
+        float: none!important;
+        box-shadow: none!important;
+        border-radius: 0!important;
+        color: #3c4858!important;
+        height: 34px;
+        padding-left: 0!important;
+        padding-bottom: 5px!important;
+    }
+
+    .btn-select-sz{
+        border: 0!important;
+        background-image: linear-gradient(0deg,#9c27b0 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+        background-size: 0 100%,100% 100%;
+        background-repeat: no-repeat;
+        background-position: bottom,50% calc(100% - 1px);
+        background-color: transparent!important;
+        transition: background 0s linear!important;
+        float: none!important;
+        box-shadow: none!important;
+        border-radius: 0!important;
+        color: #3c4858!important;
+        height: 34px;
+        padding-left: 5px !important;
+        padding-bottom: 5px!important;
+    }
+
+    /* Style items (options): */
+    .btn-select-sz option{
+        padding: 5px 0px !important;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        text-transform: uppercase;
+        color: #47515c;
+        margin-bottom: 10px;
+    }
+    
+    .form-group input[type=file] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0 !important;
+    }
+    
+    
+    .modal .modal-dialog {
+        margin-top: 50px !important;
+    }
+    
+    #large{
+        background-color: #000000b0 !important;
+    }
